@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>lzrds</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+<body>
+ 
+  <div class="drag">
+  <video id="video" draggable="true" ondragstart="preventDragImage(event)" ondrag="drag(event)" width="640" height="480" autoplay></video>
+</div>
+<!-- <canvas id="canvas" width="640" height="480"></canvas> -->
+
+  <div class="drag">
+    <button id="hi" draggable="true" ondragstart="preventDragImage(event)" ondrag="drag(event)">hi</button>
+  </div>
+  <div class="drag">
+    <button id="hi2" draggable="true" ondragstart="preventDragImage(event)" ondrag="drag(event)">hi</button>
+  </div>
+  <img height="1" width="1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" />
+  <script src="main.js"></script>
+</body>
+</html>
